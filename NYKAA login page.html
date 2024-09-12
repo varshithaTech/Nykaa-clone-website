@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        
+        <style>
+            body{
+                background-image:url('p8.jpg');
+                background-attachment:fixed;
+                background-size:cover;/*cover = Scales the image to be large enough until the background area is completely covered by the image. Some parts of the image may not be in view within the area. 100% = Fills the area but all of the image is visible. */
+                background-repeat:no repeat;
+            }
+          
+  .login-head{
+    text-align:center;
+  }         
+.login-form{
+    
+    background-color: rgba(113, 51, 21, 0.783);
+    border-radius: 10px;
+    width: 200px;
+    margin:auto;
+    padding:1%;
+    box-shadow: 0 0 10px rgb(0 0 0.1);
+   text-align:center;
+}
+.login-form label{
+    
+   /*justify-content: center;: This CSS property is typically used in a flex container to horizontally center its child elements. It is not applicable to inline elements like <label>. Instead, it should be used in a container with display: flex; to center its child elements horizontally along the main axis (usually left to right).*/
+    padding: 10px;
+    margin:10px 0;/* add dome spacing between the label */
+
+    display:block/* each label on a new line */
+}
+.login-form button{
+   
+    padding: 5px;
+}
+.login-form reset{
+    padding:10px;
+}
+.login-form input[type="text"]{
+    width:100%;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class ="login-head">
+<h2>LOGIN</h2>
+</div>
+
+
+<form class="login-form" >
+    <label>USERNAME:</label>
+    <input type="text" placeholder="username" required><br><br>
+    <label>EMAIL ID:</label>
+    <input type="text" placeholder="email id" required><br><br>
+    <label>PASSWORD:</label>
+    <input type="text" placeholder="password" required><br><br>
+    <button type="link">Forget password?</button><br><br>
+    <input type="reset" ><br><br>
+     <button type="submit"> LOGIN</button><br><br>
+     
+
+     
+
+
+    </body>
+</html>
